@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>machito</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#navbar" data-offset="56">
     <!-- header -->
-    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <section class="container">
         <a class="navbar-brand" href="#">
           <img src="imagenes/logo.png" alt="Logo"> Entregas locales
@@ -18,16 +18,16 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbar">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item ">
               <a class="nav-link" href="#carousel">Conocenos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#carta">Carta</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-main" href="#">Contáctanos</a>
+              <a class="nav-link text-main" href="#place">Visitanos</a>
             </li>
           </ul>
 
@@ -66,8 +66,8 @@
   </section>
   <!-- /carousel -->
 
-<!-- carta -->
-<section id="carta" class="mt-4">
+  <!-- carta -->
+  <section id="carta" class="mt-4">
   <div class="container">
     <div class="row">
       <div class="col text-center text-uppercase">
@@ -250,10 +250,10 @@
   </div>
 </section>
 
-<!-- /carta -->
+  <!-- /carta -->
 
-<!-- lugar -->
-<section id="place">
+  <!-- lugar -->
+  <section id="place">
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 col-md-6 pl-0 pr-0">
@@ -264,14 +264,15 @@
         <p>Atención todos los dias.</p>
         <p><strong>Lun - Vier</strong>: 7:00 pm - 12:00 am</p>
         <p><strong>Sab, Domi y Feriados</strong>: 7:00 pm - 1:30 am</p>
+        <a href="https://www.google.com/maps/place/12%C2%B003'57.8%22S+77%C2%B002'48.0%22W/@-12.0660627,-77.0488544,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d-12.0660627!4d-77.0466657?hl=en" class="btn btn-outline-light mt-2 mb-3" target="_blank"><abbr data-toggle="tooltip" title="vé nuestra ubicación">Visitanos</abbr></a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- /lugar -->
+  <!-- /lugar -->
 
-<!-- footer -->
+  <!-- footer -->
   <footer id="footer" class="pb-4 pt-4">
     <section class="container">
       <div class="row text-center">
@@ -289,6 +290,8 @@
   </footer>
 
   <!-- /footer -->
+
+
   <script>
   $('#myList').on('click', function (e) {
     e.preventDefault()
@@ -296,8 +299,10 @@
   })
   </script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/index.js">
 
+  </script>
   </body>
 </html>
