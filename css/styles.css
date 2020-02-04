@@ -19,7 +19,8 @@
 
 #header img{
 
-  width: 80px;
+  height: 30px;
+  object-fit: cover;
 }
 
 #carousel{
